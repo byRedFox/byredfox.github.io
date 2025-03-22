@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - '**'  # Это означает "все ветки"
   pull_request:
     types: [opened, reopened]
   workflow_dispatch:
